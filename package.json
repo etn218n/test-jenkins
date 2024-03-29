@@ -1,0 +1,18 @@
+{
+  "name": "com.duy.test-jenkins",
+  "version": "1.0.0",
+  "displayName": "com.duy.test-jenkins",
+  "description": "Test large data",
+  "unity": "2023.2",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {},
+  "keywords": [],
+  "samples": null,
+  "author": {
+    "name": "Duy",
+    "email": "etn218n@gmail.com",
+    "url": "https://github.com/etn218n"
+  }
+}
