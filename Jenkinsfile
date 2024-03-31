@@ -7,7 +7,7 @@ pipeline {
                 NPM_REGISTRY = 'duy-npm.com'
             }
             steps {
-                sh "echo '$NPM_REGISTRY'"
+                sh "echo '//$NPM_REGISTRY/:_authToken="$NPM_TOKEN"'"
             }
         }
     }
