@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh "echo '$PWD'"
+                sh "echo '$WORKSPACE'"
             }
         }
     }
