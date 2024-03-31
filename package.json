@@ -1,6 +1,6 @@
 {
   "name": "com.duy.test-jenkins-7",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Jenkins 7",
   "description": "Test large data",
   "unity": "2023.2",
