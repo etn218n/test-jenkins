@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "echo '//$NPM_REGISTRY/:_authToken='$NPM_TOKEN''"
+                sh "echo '//$NPM_REGISTRY/:_authToken=\"$NPM_TOKEN\""
             }
         }
     }
