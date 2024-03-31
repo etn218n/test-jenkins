@@ -3,10 +3,10 @@ pipeline {
     stages {
         stage('Build') {
             environment {
-                Token = credentials('NPM_TOKEN')
+                TestToken = credentials('NPM_TOKEN')
             }
             steps {
-                echo '$Token'
+                sh "echo '$TestToken'"
             }
         }
     }
